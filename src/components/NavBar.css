@@ -1,0 +1,54 @@
+.main_containter {
+    width: 100vw;
+    height: 55px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adds some padding on the left and right */
+}
+
+.main_containter .company-name {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.main_containter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex; 
+
+}
+
+.main_containter ul> a{
+    text-decoration: none;
+    margin: 1.1rem;
+    
+
+}
+.main_containter ul> a:hover{
+    color: blue;
+}
+.main_containter a{
+    color: aliceblue
+}
+a.active {
+    color: red;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    padding: 3px 16px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 4px; /* Optional: rounded button */
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
